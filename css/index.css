@@ -1,0 +1,36 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    background-image: url("../images/background.jpg");
+    text-align: center;
+  }
+  
+  @media screen and  (min-width: 600px) {
+    .products {
+        display: inline-flex;
+        vertical-align: middle;
+    }
+  
+    #circlr1, #circlr2{
+      width: 50%;
+      height: auto;
+      margin: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 599px) {
+    .products {
+        width: 100%;
+        height: auto;
+    }
+  }
+  
+  h1 {
+      text-align: center;
+      color: rgb(18, 235, 65);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
