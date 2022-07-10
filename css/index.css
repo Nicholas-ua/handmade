@@ -20,7 +20,7 @@ body {
   
   @media screen and (max-width: 599px) {
     .products {
-        width: auto;
+        width: 90%;
         height: 100%;
         overflow-y: scroll;
     }
